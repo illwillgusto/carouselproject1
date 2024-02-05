@@ -8,9 +8,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
-    background-color: var(--background);
+    background-color: darkgreen;
     padding: 32px;
     padding-top: 128px;
+    display: flex;
+    justify-content: center;
 }
 
 .background {
@@ -68,12 +70,12 @@ body {
 }
 
 .container::-webkit-scrollbar-track {
-    background: white;
+    background: transparent;
     border-radius: 6px;
 }
 
 .container::-webkit-scrollbar-thumb {
-    background: #FF9950;
+    background: black;
     border-radius: 5px;
 }
 
